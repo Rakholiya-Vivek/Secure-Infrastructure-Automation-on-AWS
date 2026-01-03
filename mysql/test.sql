@@ -6,6 +6,10 @@
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.0.25
 
+
+-- ALTER USER 'admin'@'%' IDENTIFIED WITH mysql_native_password BY 'Devops123';
+
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -39,5 +43,3 @@ ALTER TABLE `books`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 COMMIT;
-
--- ALTER USER 'admin'@'%' IDENTIFIED WITH mysql_native_password BY 'Devops123';
